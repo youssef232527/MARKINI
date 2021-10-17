@@ -1,0 +1,20 @@
+.classPopup{
+    height: 75px;
+    width: 100px;
+    border-radius: 8px;
+    background: #292929;
+    color: white;
+    margin-left: 100%;
+    transform: translate(-100%, -20%);
+}
+.eventsUser{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   
+    
+
+}
+.eventsUserGlobale{
+    margin-bottom: 20px;
+}

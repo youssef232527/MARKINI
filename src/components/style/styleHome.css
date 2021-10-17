@@ -1,0 +1,343 @@
+
+.profil0{
+  max-width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+
+#intro{
+  background-image: url('../../images/hand2.png');
+  background-size: 90%;
+  background-position-x: 400px;
+  background-position-y: 50px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+
+
+
+  
+  
+  
+}
+
+
+.introprph0{
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start;
+  height: 60vh;
+}
+.navbar0{
+  /* height: 7.5vh; */
+  width: 100%;
+}
+.headerHome0{
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  z-index: 999;
+  width: 100% ;
+  padding: 10px 50px;
+  top: 0;
+  align-items: center;
+  border-bottom:1px solid #72757850;
+
+  background-color: white;
+  height: 8vh;
+}
+
+.home0{
+  width: 100%;
+}
+
+.menu0{
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+
+
+ 
+}
+.mobileHeader0{
+  display: none;
+}
+.menu0 li {
+  list-style-type: none;
+  padding: 15px ;
+  text-align: center;
+min-width: 120px;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  color: #939393;
+}
+
+
+
+.logo0{
+  width: 155px;
+
+}
+.menu0 link{
+  text-decoration: none
+}
+
+.login-signup0{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.login0{
+  border: none;
+  border-radius: 10px;
+  color: white;
+  background-color: #37C3A7;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 50;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 9px 30px;
+  min-width: 125px;
+  transition: all ease 200ms;
+}
+
+.login0:hover{
+  box-shadow: -1px 3px 9px -3px rgba(0,0,0,0.6);}
+
+.signup0{
+  border: 1px solid #A8A5A5;
+  border-radius: 10px;
+  color: #37C3A7;
+  background-color: white;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  cursor: pointer;
+  padding: 7px 20px;
+  margin-left: 30px;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s; 
+  transition-duration: 0.4s;
+  min-width: 125px;
+}
+.signup0:hover{
+  box-shadow: -1px 3px 9px -3px rgba(0,0,0,0.6);}
+
+.login-signup0 button0 :hover{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+
+.intro-title0{
+  font-family: "Montserrat",sans-serif;
+  font-size: 70px;
+  font-weight: 450;
+  line-height: 24px;
+  color: #616467;
+  margin: 0;
+  padding: 10px 0;
+
+}
+
+.intro-paragraph0 {
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  padding: 20px 0;
+  line-height: 24px;
+  color: #727578;
+
+}
+
+.btnmore0{
+  border: none;
+  border-radius: 50px;
+  color: white;
+  background-color: #37C3A7;
+  transition-duration: 0.4s;
+  text-align: center;
+  text-decoration: none;
+  font-family: "Montserrat",sans-serif;
+  font-size: 20px;
+  font-weight: 450;
+  line-height: 35px;
+  cursor: pointer;
+  padding: 9px 30px;
+  display: inline-block;
+  width: 210px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+.btnmore0 span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btnmore0 span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.btnmore0:hover span {
+  padding-right: 25px;
+}
+
+.btnmore0:hover span:after {
+  opacity: 1;
+  right: 0;
+}  
+
+.navbar-icone0{
+  display: none;
+}
+.menuAll0{
+  display: flex;
+  align-items: center;
+}
+@media  screen and (max-width: 1024px) {
+  .logo-container0{
+      display: flex;
+      justify-content: center;
+      align-items: center;      
+  }
+  
+  .menuitem0{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+  }
+  .menuAll0{
+    background-color: #37C3A7;
+    position: absolute;
+    z-index: 99;
+    width: 100vw;
+   
+    height: 100vh;
+  }
+  .option0{
+    color: white !important;
+  }
+  .loginbtn0{
+    padding: 5px !important;
+    border-radius: 10px;
+    border: solid 2px white;
+
+  }
+  .loginbtn20{
+    color: #616467 !important;
+    background: white !important;
+  }
+  .mobileHeader0{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header0{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .navbar0{
+      
+      display: none;
+   
+  }
+  .nav2-ll0{
+    width: 95vw;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .logo20{
+    width: 100px;
+  }
+  .option0 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    padding: 30px 0px;
+  }
+  .login0{
+    background: rgb(222, 9, 241);
+    border-radius: 3px;
+    color: white;
+    padding: 20px 0px;
+    width: 80%;
+    align-self: center;
+    border-radius: 3px;
+  }
+  .signup0{
+    background: rgb(222, 9, 241);
+    border-radius: 3px;
+    color: white;
+    padding: 20px 0px;
+    width: 80%;
+    align-self: center;
+    border-radius: 3px;
+  }
+  .login-signup0{
+      display: none;
+  }
+  /* body{
+      background-color: white;
+  } */
+  .navbar-icone0{
+      display: flex;
+  }
+  #intro{
+    /* ##### background image ##### */
+    background-image:url('../../images/mobile.png') ;
+    background-size: contain;
+    background-position-x:20px ;
+    background-position-y:-30px ;
+    width: 100vw;
+
+    background-repeat: no-repeat;
+    
+    
+  }
+  .introprph0{
+    display: flex;
+    padding-left: 10px;
+    text-align: center;
+    width: 95vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+}

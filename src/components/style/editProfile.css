@@ -1,0 +1,120 @@
+.containerEdit{
+    position :absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    height: 600px;
+    width: 500px;
+    border-radius: 50px;
+    background:#fff ;
+    text-align: center;
+    box-shadow:-6px 0px 20px -2px rgba(202, 199, 199, 0.77);
+    
+} 
+
+.EditProfil{
+    display: flex;
+    flex-direction: column;
+}
+#PhotoEdit  {
+    width: 200px;
+    margin-left: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#name{
+    width: 100%;
+    margin-left: 100px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    
+}
+#name span{
+    margin-right: 100px;
+    
+}
+#FirstLastName{
+    margin-top: 0px;
+}
+.EditProfil span{
+    color: #31373cf5;
+    
+}
+
+.EditProfil button{
+    border-radius: 49px;
+    width: 90px;
+    color: #fff;
+    height: 30px;
+    
+}
+    
+.EditProfil img{
+    /* height: 70px;
+    width: 70px; */
+    /* position: absolute;
+    left: 30%; */
+    overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:70px;
+    height:70px;
+}
+.EditProfil input{
+    border: 1px solid rgb(100, 92, 92);
+    border-radius: 40px;
+    text-align: center;
+    padding: 5px 30px;
+    background: #ffffffd3;
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+    margin-top: 20px;
+    outline: none;
+    height: 40px;
+
+}
+/**************/
+/* #editButton{
+    margin-top: 20px;
+    margin-left: 70px;
+} */
+#PersonelInfo{
+    font-size: 20px;
+    margin-left: -50px;
+    margin-top: 20px;
+}
+.gmailState{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    float: left;
+}
+.gmailState span{
+    float: left;
+    margin-left: -250px;
+    margin-top: 20px;
+}
+.gmailState input{
+    margin-left: 90px;
+}
+.saveCancel{
+    margin-top: 20px;
+}
+.saveCancel button{
+    margin-right: 15px;
+}
+#editButton{
+    display: inline-block;
+    width: 90px;
+    border-radius: 50px;
+    height: 30px;
+    padding: 3px;
+    color: white;
+}

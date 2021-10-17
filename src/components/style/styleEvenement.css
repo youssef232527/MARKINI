@@ -1,0 +1,57 @@
+#imageProfilEvenement{
+    background-image: url('../../images/cercleCopie.jpg');
+    background-size: 60%;
+    background-position-x: 1000px;
+    background-position-y: 50px;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+}
+
+
+
+
+.evenement{
+    height: 100%;
+    width: 100%;
+}
+.wrapEvenement{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.publicEvents{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    margin-right: 30px;
+    margin-top: 40px;
+}
+.publicEventTitre{
+    display: flex;
+    justify-content: space-between;
+}
+.EvenmentUnique  p{
+    font-size: 13px;
+    margin-bottom: 0px;
+}
+h7{
+    font-size: 13px;
+}
+.publicEventGlobale{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+h4{
+    color: #697070;
+    /* margin-left: 20px; */
+}
+.favoriteEventtitre{
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}

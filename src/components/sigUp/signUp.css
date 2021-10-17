@@ -1,0 +1,245 @@
+.navbar {
+    height: 7.5vh;
+    width: 100%;
+  }
+  .header {
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    width: 100%;
+    padding: 10px 50px;
+    top: 0;
+    align-items: center;
+    border-bottom: 1px solid #72757850;
+  
+    background-color: #37c3a7;
+    height: 7vh;
+  }
+  
+  .home {
+    width: 100%;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+  }
+  
+  .mobileHeader {
+    display: none;
+  }
+  .menu li {
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+    min-width: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+  }
+  
+  .logo {
+    width: 155px;
+  }
+  .menu link {
+    text-decoration: none;
+  }
+  
+  .hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: 0.8;
+  }
+  .hr-text::before {
+    content: "";
+    background: linear-gradient(to right, transparent, black, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+  }
+  .hr-text::after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 0.5em;
+    line-height: 1.2em;
+    color: black;
+    background-color: #94c9bf;
+  }
+  /* body {
+    background-color: #37c3a7;
+  } */
+  .signup {
+    width: 100%;
+    background: #37c3a7
+  }
+  .signup-div {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:20px
+  }
+  .inputs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .radio-inp {
+    display: flex;
+    flex-direction: row;
+  }
+  .div0 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 400px;
+    height: 600px;
+    background-color: #94c9bf;
+    padding: 50px;
+    border-radius: 31px;
+  }
+  .input-field {
+    border-radius: 25px;
+    width: 250px;
+    border: none;
+    padding: 13px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #626060;
+    
+  }
+  .inp-btn {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+  }
+  .radio-inp {
+    display: flex;
+    justify-content: space-between;
+  }
+  .btn1 {
+    border-radius: 25px;
+    width: 275px;
+    padding: 13px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    background-color: #2da58d;
+  }
+  .btn2 {
+    border-radius: 25px;
+    width: 275px;
+    padding: 13px;
+    border: none;
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    background-color: #2da58d;
+  }
+  .buttons-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .men {
+    width: 600px;
+  }
+  .plant {
+    width: 90px;
+    position: relative;
+    top: 300px;
+  }
+  .main {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  .wave-div svg {
+    position: absolute;
+    bottom: 0;
+  }
+  .wave-div {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+  }
+  .wave-svg {
+    height: 150px;
+    width: 100%;
+  }
+  .wave-path {
+    stroke: none;
+    fill: white;
+  }
+  .title-signup {
+    font-family: "Montserrat", sans-serif;
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #3f3d56;
+  }
+  #google{
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 15px;
+  }
+  .label-radio{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    color:#222E2C;
+  
+  }
+  .inputs-radio{
+    display: flex;
+  }
+  .ph{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #222E2C;
+  }
+  .login{
+    text-decoration: none;
+    color: #387560;
+    font-weight: 550;
+  }
+  /* @media screen and (max-width: 2992px){
+    .wave-div{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1360px){
+    .plant{
+      display: none;
+    }
+  }
+  @media screen and (max-width: 1440px){
+    .main{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  } */

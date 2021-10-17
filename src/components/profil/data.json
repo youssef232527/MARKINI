@@ -1,0 +1,42 @@
+{
+    "skills": [
+        "C",
+        "C++",
+        "python",
+        "HTML",
+        "CSS",
+        "java",
+        "javaScript",
+        "Reactjs",
+        "React Native",
+        "Angular",
+        "PHP",
+        "Node.js",
+        "jQuery",
+        "Laragon",
+        "Android Studio",
+        "C++"
+    ],
+
+    "languages": [
+        "français",
+        "anglais",
+        "arabe",
+        "italien",
+        "allemand",
+        "espagnole"
+
+    ],
+    
+        "city":[
+            "Ariana",
+            "Tunis",
+            "Ben Arous",
+            "Manouba",
+            "Sfax",
+            "Sousse",
+            "Gabes",
+            "Binzert",
+            "Nabel"
+    ]
+}

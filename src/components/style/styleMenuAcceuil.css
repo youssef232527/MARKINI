@@ -1,0 +1,52 @@
+#imageProfilHande{
+    background-image: url('../../images/hand2.png');
+  background-size: 90%;
+  background-position-x: 600px;
+  background-position-y: 90px;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+.menu-p{
+    position: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+   
+   
+} 
+.navbar{
+    margin-top: 0px;
+}
+.headerAcceuil{
+    background:#37C3A7 ;
+   
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    width: 100%;
+    padding: 10px 50px;
+    top: 0;
+    align-items: center;
+    border-bottom: 1px solid #72757850;
+   
+}
+.menu-p li {
+    list-style-type: none;
+    padding: 15px;
+    text-align: center;
+    min-width: 120px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  @media screen and (max-width: 415px){
+ 
+  .headerAcceuil{
+    width: auto;
+  }
+  }

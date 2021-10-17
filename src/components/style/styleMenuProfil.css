@@ -1,0 +1,121 @@
+#imageProfilHande{
+    background-image: url('../../images/hand2.png');
+  background-size: 90%;
+  background-position-x: 600px;
+  background-position-y: 90px;
+  background-repeat: no-repeat;
+
+  min-height: 100vh;
+}
+.menu-p{
+    position: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+   
+   
+} 
+.headerProfil{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 999;
+    width: 100%;
+    padding: 10px 50px;
+    top: 0;
+    align-items: center;
+    border-bottom: 1px solid #72757850;
+    background-color: white;
+}
+svg{
+    position: relative;
+}
+
+.bodyProfil{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    margin-top: 40px;
+}
+.completeProfil{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-between;
+    
+    
+
+}
+.wrap{
+    height: 700px;
+    width: 80%;
+    
+}
+.completeP{
+    height: 70px;
+    padding-top: 15px;
+    text-transform: uppercase;
+}
+.pourcentageC{
+    padding-top: 10px;
+}
+.completeProfilBar{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    
+
+}
+.infoProfil{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 30px;
+}
+.infoDistance{
+    display: flex;
+    height: 120px;
+    justify-content: space-between;
+    border-bottom: 1px solid #72757850;
+    background-color: white;
+}
+.photoNom{
+    display: flex;
+}
+.cityDistance{
+    display: flex;
+}
+.btnProfil{
+    border: 1px solid rgb(211, 206, 206);
+    border-radius: 40px;
+    text-align: center;
+    padding: 5px 30px;
+    background: #ffffffd3;
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    height: 40px;
+    /* box-shadow: 0 8px 16px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%); */
+}
+
+.progress{
+
+    
+}
+.popupeMenu{
+    
+    position: absolute;
+   display: flex;
+   flex-direction: row;
+   border-radius: 10px;
+  
+}
+.popupeMenu button{
+    
+    border-radius: 50px;
+    font-size: 10px;
+    border: 1px solid rgb(211, 206, 206);
+    color: #35bbbb;
+    margin :5px;
+}

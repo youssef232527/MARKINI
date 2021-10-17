@@ -1,0 +1,488 @@
+/* body{
+    padding: 0 0;
+    margin: 0 0;
+    background-color: #37C3A7;
+    Font : Montserrat;
+    max-width :100vw;
+    max-height: 100vh;
+  } */
+  .wave-div svg{
+    position: absolute;
+    bottom: 0;
+    /* padding: 0px;
+    margin: 0px;
+    height: 50px; */
+  }
+  .wave-div {
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+    
+  }
+  .wave-svg {
+    height: 150px;
+    width: 100%;
+  }
+  .wave-path {
+    stroke: none;
+    fill: white;
+  }
+.footer{
+    /* position: fixed; */
+    /* height: 80px;
+    width: cover;
+    padding: 10px; */
+} 
+  
+.menu {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+  float: right;
+  padding :30px 30px;
+  font-size: 25px;
+     font-family:"Montserrat",sans-serif; 
+    
+   
+}
+a {
+
+    text-decoration: none;
+    color: rgb(220, 231, 235);
+    margin-bottom: 10px;
+}
+li {
+    list-style-type: none;
+    padding: 0px 40px;
+} 
+.header{
+    /* display:flex;
+    align-items: center;
+    grid-template-rows: 1fr;
+    flex-direction: row;
+     margin-left: 10%; 
+    margin-top: 2%; */
+    
+        /* display:grid;
+        gird-template-colums:50% 50%;
+        display: none; */
+
+        width: cover;
+        height: cover;
+        
+        /* border: 2px solid blue ;
+        border: 4px solide black; */
+        padding : 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+    }
+    /* .env{
+    display: grid;
+    grid-template-columns:80% 20%;
+    grid-template-rows: 1fr 1fr;
+
+    } */
+
+.gird{
+ 
+    /* display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 0 20px; */
+    display: grid;
+    grid-template-columns:30% 60% 10% ;
+    grid-template-rows: 1fr;
+    margin: 0 40px;
+}
+.photo {
+  height: 200px;
+  float: right;
+  position: relative;
+  top: 300px;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    padding-left: 70px;
+    /* padding-right: 130px; */
+}
+.form{
+    margin-left: 0px;
+    width: 400px;
+    height: 500px;
+    /* padding: 0 60px; */
+    margin-left: 350px;
+    
+}
+.border {
+    
+    text-align: center; 
+    position: relative;
+    
+    background-color: #c2d8cdc9;
+    border-radius:20px;
+    /* width: 400px; */
+    /*height: 400px; */
+    box-shadow:2px 5px 3px 3px rgba(0,0,0,0.83);
+  
+  }
+  /*** qdim*/
+  
+  .btn {
+    width: 70%;
+    background-color: #37C3A7;
+    border: none;
+    outline: none;
+    height: 45px;
+    border-radius: 49px;
+    color: #fff;
+    
+    font-weight: 600;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+ 
+
+
+
+  /*******jdid*********/
+
+
+  .google {
+      padding-top:100px;
+      width: 60%;
+      background-color: #37C3A7;
+      margin: 15px 0;
+      height: 45px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 55px;
+      display: grid;
+      grid-template-columns: 15% 85%;
+      padding: 0 1rem; 
+      position: relative;
+      font-weight: 600;
+      /* margin: 10px 0; */
+      cursor: pointer;
+      transition: 0.5s;
+  
+  }
+  .google input{
+    background: none;
+      outline: none;
+      border: none;
+      line-height: 1;
+      font-weight: 600;
+      font-weight: 600;
+      margin: 10px 0;
+      cursor: pointer;
+      transition: 0.5s;
+      font-size: 0.9rem;
+      color: #fff;
+  }
+  .google i {
+    text-align: center;
+    line-height: 45px;
+    color: #fff;
+    transition: 0.5s;
+    font-size: 1.1rem;
+    /* padding-left: 30px; */
+  }
+  /****youf lina jded*******/
+
+  .traitLeft{
+    margin-left :50px;
+    width:30%;
+    float: left;
+  }
+  .traitRigth{
+    margin-right :50px;
+    width: 30%;
+    float: right;
+  }
+  .or{
+     position: absolute;
+     left: 48.5%;
+  }
+  .input_field i {
+    text-align: center;
+    line-height: 45px;
+    color: #acacac;
+    transition: 0.5s;
+    font-size: 1.1rem;
+  }
+  
+  .input_field input {
+    background: none;
+    outline: none;
+    border: none;
+    line-height: 1;
+    font-weight: 600;
+   
+    font-size: 1.1rem;
+    color: rgb(36, 35, 35);
+  }
+  .input_field {
+    /* max-width: 380px; */
+    padding-top:100px;
+    width: 100%;
+    background-color: #f0f0f0;
+    margin: 15px 0;
+    height: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 55px;
+    display: grid;
+    grid-template-columns: 15% 85%;
+    padding: 0 1rem; 
+    position: relative;
+  }
+  .title {
+    font-size: 2.2rem;
+    color: rgba(21, 19, 36, 0.623);
+    margin-bottom: 10px;
+    text-align: center; 
+    /* transform: translateX(-50%); */
+    
+  }
+  .info{
+    
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#premierTrait{
+  position: absolute;
+  top: 70px;
+  height: 1px;
+  width: 100%;
+  background-color: rgb(226, 212, 212);
+  
+
+}
+.logGoogle{
+  position: relative;
+  
+}
+#google{
+  position: relative;
+  float: left;
+  padding: 0px 150;
+}
+@media screen and (max-width: 1340px)  {
+
+    .gird{
+      
+      display: flex;
+      flex-direction: row;
+      
+    }
+    .img{
+      padding-left: 0px;
+    }
+    .form{
+      margin-left: 150px;
+    }
+    
+
+    
+    }
+    @media screen and (max-width: 1250px){
+      
+      .img{
+        height: 400;
+        width: 420px;
+      }
+     
+    
+    
+
+    }
+    @media screen and (max-width: 1160px){
+      .form{
+        margin-left: 5%;
+      }
+    }
+    @media screen and (max-width: 1100px){
+      .wave-div{
+        display: none;
+      }
+      .img{
+        height: 400;
+        width: 390px;
+      }
+    }
+    @media screen and (max-width: 1000px){
+      .gird{
+        
+        display: flex;
+        flex-direction: row;
+        
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+        
+      }
+      .form{
+        width: 450px;
+        margin-top: 0;
+      }
+       .photo{
+        display: none;
+      } 
+      
+      
+      
+    }
+    @media screen and (max-width: 900px){
+      
+      .menu{
+        font-size: 20px;
+      }
+      .markeni img{
+        height: 30px;
+        width: 150px;
+        padding: 20px;
+        margin: 0px;
+      }
+    }
+    @media screen and (max-width: 770px){
+      .log{
+        padding: 0px 8px;
+      }
+      .markeni img{
+        height: 30px;
+        width: 150px;
+        padding: 20px;
+        margin: 0px 70px;
+      }
+      .photo{
+        display: none;
+      }
+      .form{
+        /* padding: 0px; */
+        margin-top: 0px;
+      }
+    }
+    @media screen and (max-width: 580px){
+      .log{
+        padding: 0px 2px;
+      }
+      .border{
+        height: 400px;
+        width: 400px;
+      }
+      .log {
+        padding: 0px 8px;
+    }
+    }
+    @media screen and (max-width: 440px){
+      .border{
+        height: 400px;
+        width: 300px;
+        margin: 0px 80px;
+
+      }
+      .google input{
+        font-size: 0.7rem;
+      }
+      .traitRigth , .traitLeft {
+       
+        width: 20%;
+        
+    }
+
+      .form{
+        margin: 0px;
+      }
+      .or {
+        
+        left: 48%;
+    }
+      
+      .photo{
+        display: none;
+      }
+      
+    }
+    @media screen and (max-width: 320px){
+      .border{
+        
+        margin: 0px 100px;
+
+      }
+      .log {
+        font-size: 15px;
+    }
+    
+      
+    }
+    /* @media screen and (max-width: 280px){
+      
+    }
+     */
+
+    
+      
+      
+      /*  text-align: center;
+        position: relative;
+        background-color: #c2d8cdc9;
+        border-radius: 20px;
+        width: 300px; */
+        
+        /* box-shadow: 5px 5px 3px 3px rgb(0 0 0 / 83%); */
+        /* padding: 0px;
+        margin: 0px 70px; */
+        /* padding: 0 20px; */
+    
+     
+     
+
+/* @mediascreen and  (max-width: 900) {
+
+  .header {
+    grid-template-columns: 1fr;
+  } 
+  
+	.image img{
+		height: 200px;
+	}
+  
+} */
+/*
+@media screen and (max-width: 1330)  {
+  .gird{
+    
+  }
+  .img{
+    padding-left: none;
+  }
+  
+}
+@media screen and (max-width: 1024px)  {
+  .gird{
+    grid-template-columns:1fr 1fr
+  }
+   
+    .img {
+      width: 250px;
+      height: 350px;
+      
+  }
+}
+@media screen and (max-width: 800px)  {
+  .gird{
+      grid-template-columns: 1fr ;
+      grid-template-rows: 50% 50% ;        
+     
+
+      
+    }
+    
+    .img {
+      width: 500px;
+      height: 500px;
+      text-align: center;
+  }
+}*/

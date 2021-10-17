@@ -1,0 +1,107 @@
+.EvenmentUnique {
+  border: 1px solide;
+  border-radius: 10px;
+  box-shadow: 1px 1px 1px 1px;
+  height: 420px;
+  width: 28%;
+  margin-bottom: 40px;
+}
+.imageEvenement {
+  position: relative;
+  padding: 20px;
+  height: 300px;
+  width: 100%;
+  border-radius: 30px;
+}
+.coordonneEvenement {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 5px;
+  flex-wrap: wrap;
+}
+
+.EvenmentUnique h4 {
+  margin-left: 20px;
+}
+ .imageEvenementPublic p{
+  margin-left: 20px;
+ 
+}
+#imageProfilEvenement > div.wrapEvenement > div > p{
+  margin-left: 20px;
+  color: #697070;
+}
+.coordonneEvenement .cgProfile{
+  display: flex;
+    align-items: center;
+}
+.coordonneEvenement div{
+  display: flex;
+    align-items: center;
+}
+.coordonneEvenement p{
+  color: #697070;
+  
+
+}
+.EvenmentUnique .imgUserEvent{
+  height: 90px;
+    width: 90px;
+    
+    overflow: hidden;
+    border-radius: 50px;
+    position: relative;
+    top: -42%;
+    left: 65%;
+    margin-bottom: 0px;
+}
+@media screen and (max-width: 1024px){
+  .EvenmentUnique {
+    width: 31%;
+}
+.wrapEvenement {
+  justify-content: space-around;
+  
+}
+}
+@media screen and (max-width: 768px){
+  .EvenmentUnique {
+    width: 44%;
+    margin: 3%;
+    
+}
+.wrapEvenement {
+  justify-content: flex-start;
+  
+}
+.coordonneEvenement {
+ 
+  
+  
+}
+}
+@media screen and (max-width: 768px){
+  .EvenmentUnique {
+    width: 44%;
+    justify-content: flex-start;
+    
+}
+.wrapEvenement{
+  width: 120%;
+}
+}
+@media screen and (max-width: 414px){
+.wrapEvenement{
+  width: 180%;
+}
+}
+@media screen and (max-width: 375px){
+  .wrapEvenement{
+    width: 203%;
+  }
+  }
+  @media screen and (max-width: 280px){
+    .wrapEvenement{
+      width: 250%;
+    }
+    }

@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,        
+        "competance":"c"
+    },
+    {
+        "id":2,        
+        "competance":"c++"
+    },
+    {
+        "id":3,        
+        "competance":"java"
+    },
+    {
+        "id":4,        
+        "competance":"python"
+    },
+    {
+        "id":5,        
+        "competance":"c#"
+    },
+    {
+        "id":6,        
+        "competance":"html"
+    },
+    {
+        "id":7,        
+        "competance":"css"
+    },
+    {
+        "id":8,        
+        "competance":"javascript+"
+    },
+    {
+        "id":9,        
+        "competance":"react"
+    },
+    {
+        "id":10,        
+        "competance":"uml"
+    }
+
+
+]
